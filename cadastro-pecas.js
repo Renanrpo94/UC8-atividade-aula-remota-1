@@ -8,14 +8,14 @@ if (peso > 100) {
     console.log("Cadastro não pode ser efetuado, a peça não tem o peso minimo exigido")
 }
 
-let listaPecas = ["Arruela","Parafuso","Porca","Rolimã","Broca","Sextavado","Bloco","Mola","bsp08"];
+let listaPecas = ["Arruela","Parafuso","Porca","Rolimã","Sextavado","Bloco","Mola","bsp08","ab"];
 
 let numeroPecas = listaPecas.length;
 
 if (numeroPecas <10) {
     console.log("Espaço disponivel, prossiga com o cadastro")
 } else {
-    console.log("Sem espaço disponvivel na lista, capacidade máximajá foi atingida")
+    console.log("Sem espaço disponvivel na lista, capacidade máxima já foi atingida")
 }
 
 let nomePeca = listaPecas [1]  // peça a ser selecionada dentro das opções da linha 11
